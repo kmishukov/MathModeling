@@ -1,15 +1,15 @@
 //
-//  Task1Tests.swift
-//  Task1Tests
+//  MathModelingTests.swift
+//  MathModelingTests
 //
 //  Created by Konstantin Mishukov on 31.03.2020.
 //  Copyright © 2020 Konstantin Mishukov. All rights reserved.
 //
 
 import XCTest
-@testable import Task1
+@testable import MathModeling
 
-class Task1Tests: XCTestCase {
+class MathModelingTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

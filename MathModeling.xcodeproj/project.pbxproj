@@ -11,8 +11,8 @@
 		1D287E03243325FC0031F96A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D287E02243325FC0031F96A /* ViewController.swift */; };
 		1D287E05243325FF0031F96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D287E04243325FF0031F96A /* Assets.xcassets */; };
 		1D287E08243325FF0031F96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D287E06243325FF0031F96A /* Main.storyboard */; };
-		1D287E14243325FF0031F96A /* Task1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D287E13243325FF0031F96A /* Task1Tests.swift */; };
-		1D287E1F243325FF0031F96A /* Task1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D287E1E243325FF0031F96A /* Task1UITests.swift */; };
+		1D287E14243325FF0031F96A /* MathModelingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D287E13243325FF0031F96A /* MathModelingTests.swift */; };
+		1D287E1F243325FF0031F96A /* MathModelingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D287E1E243325FF0031F96A /* MathModelingUITests.swift */; };
 		1D287E2D24332AD50031F96A /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D287E2C24332AD50031F96A /* Date+Extension.swift */; };
 		1D287E2F24332B0C0031F96A /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D287E2E24332B0C0031F96A /* Int+Extension.swift */; };
 		2D4C699A588F6B0FDA4104F9 /* Pods_MathModeling_MathModelingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83E4B4BB2AF48BDA3DA38E9 /* Pods_MathModeling_MathModelingUITests.framework */; };
@@ -46,10 +46,10 @@
 		1D287E09243325FF0031F96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D287E0A243325FF0031F96A /* MathModeling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MathModeling.entitlements; sourceTree = "<group>"; };
 		1D287E0F243325FF0031F96A /* MathModelingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathModelingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D287E13243325FF0031F96A /* Task1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1Tests.swift; sourceTree = "<group>"; };
+		1D287E13243325FF0031F96A /* MathModelingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathModelingTests.swift; sourceTree = "<group>"; };
 		1D287E15243325FF0031F96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D287E1A243325FF0031F96A /* MathModelingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathModelingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D287E1E243325FF0031F96A /* Task1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1UITests.swift; sourceTree = "<group>"; };
+		1D287E1E243325FF0031F96A /* MathModelingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathModelingUITests.swift; sourceTree = "<group>"; };
 		1D287E20243325FF0031F96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D287E2C24332AD50031F96A /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		1D287E2E24332B0C0031F96A /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		1D287E12243325FF0031F96A /* MathModelingTests */ = {
 			isa = PBXGroup;
 			children = (
-				1D287E13243325FF0031F96A /* Task1Tests.swift */,
+				1D287E13243325FF0031F96A /* MathModelingTests.swift */,
 				1D287E15243325FF0031F96A /* Info.plist */,
 			);
 			path = MathModelingTests;
@@ -140,7 +140,7 @@
 		1D287E1D243325FF0031F96A /* MathModelingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1D287E1E243325FF0031F96A /* Task1UITests.swift */,
+				1D287E1E243325FF0031F96A /* MathModelingUITests.swift */,
 				1D287E20243325FF0031F96A /* Info.plist */,
 			);
 			path = MathModelingUITests;
@@ -427,7 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D287E14243325FF0031F96A /* Task1Tests.swift in Sources */,
+				1D287E14243325FF0031F96A /* MathModelingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D287E1F243325FF0031F96A /* Task1UITests.swift in Sources */,
+				1D287E1F243325FF0031F96A /* MathModelingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
